@@ -1,0 +1,97 @@
+1. Write a program that asks user to input number and
+  prints out the name of the corresponding day.
+  If user inputs any other number than 1 - 7, then
+  print out "There is no such day, please enter numbers 1 - 7!"
+    example 1:
+        Input: 1
+        Output: Monday
+    example 2:
+        Input: 7
+        Output: Sunday
+
+
+2. Write a program that asks user to input three numbers
+  and prints out the greatest number
+    example:
+        input:
+            Please input number 1:
+            10
+            Please input number 2:
+            100
+            Please input number 3:
+            54
+        output:
+            greatest number is 100!
+
+
+3. Write  program that asks user to input three numbers and checks if they
+    are in ascending (increasing) or descending (decreasing) order.
+    If all of the numbers are equal, then print out text - "numbers are equal!"
+    If none of the previous conditions is true, then print out text - "well, maybe some other time."
+    example:
+        Please input number 1:
+            20
+        Please input number 2:
+            40
+        Please input number 3:
+            100
+        output:
+            numbers are in ascending order!
+
+some helpful links:
+    https://www.w3schools.com/java/java_conditions.asp
+    https://www.programiz.com/java-programming/if-else-statement
+    https://www.javatpoint.com/java-if-else
+    https://www.tutorialspoint.com/java/if_else_statement_in_java.htm
+----------------------------------------------------------------------------
+---------------------------- Switch  ---------------------------------------
+----------------------------------------------------------------------------
+4. Write the same program as in task nr. 1, but use switch statement instead of if / else
+
+
+5. Write program that outputs text "Male", if user inputs "M", or "Female" if user inputs "F"
+    example:
+        input:
+            M
+        ouput:
+            Male
+
+helpful link:
+    https://www.tutorialspoint.com/java/switch_statement_in_java.htm
+----------------------------------------------------------------------------
+---------------------------- Loops (while)  --------------------------------
+----------------------------------------------------------------------------
+6. Write a program that prints out numbers from 1 to 10:
+    example:
+        output: 1 2 3 4 5 6 7 8 9 10
+
+
+7. Write a program that prints out numbers from 10 to -10:
+    example:
+        output: 10 9 8 ... -10
+
+
+8. Write a program that prints out numbers from 0 to 10 (except 3 and 6):
+    example:
+        output: 0 1 2 4 5 7 8 9 10
+
+
+9. Write a program that prints out all even numbers from 2 to 30
+    example:
+        output: 2 4 6 ... 30
+    (hint, you can check if number is even like this: x % 2 == 0)
+
+some helpful links:
+    https://www.w3schools.com/java/java_while_loop.asp
+    https://study.com/academy/lesson/while-loops-in-java-example-syntax.html
+
+
+---------------------------------------------------------------------------
+---------------------------- Methods  -------------------------------------
+---------------------------------------------------------------------------
+6. implement three methods:
+    1) Method that accepts two string arguments and returns the result.
+    2) Method that accepts three number arguments and returns the average of those three numbers.
+    3) Method that accepts two numbers and returns true (boolean data type) if first argument is
+       greater than second or false if the first argument is equal or less than second
+
