@@ -14,17 +14,20 @@ import java.util.Scanner;
 public class Task3 {
 
     public static void main(String[] args) {
+        //example without user input
         int x = 25;
         int y = 5;
-        System.out.println(x * y);
+        int z = x * y;
+        System.out.println(z);
 
         // example with input from user via console
         // https://www.w3schools.com/java/java_user_input.asp
-        Scanner scanner = new Scanner(System.in);  // Create a Scanner object
+        Scanner ievads = new Scanner(System.in);  // Create a Scanner object
         System.out.println("Input first number: ");
-        int a = scanner.nextInt();
-        System.out.println("Input first number: ");
-        int b = scanner.nextInt();
+        int a = ievads.nextInt();
+
+        System.out.println("Input second number: ");
+        int b = ievads.nextInt();
         System.out.println(a * b);
     }
 }

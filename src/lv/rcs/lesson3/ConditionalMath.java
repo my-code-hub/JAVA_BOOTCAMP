@@ -10,7 +10,7 @@ public class ConditionalMath {
         System.out.println("please enter integer:");
         int a = scanner.nextInt();
 
-        System.out.println("please enter float:");
+        System.out.println("please enter integer:");
         int b = scanner.nextInt();
 
         if (a > b) {

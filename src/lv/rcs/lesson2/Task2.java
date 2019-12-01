@@ -15,9 +15,13 @@ package lv.rcs.lesson2;
  */
 public class Task2 {
 
+    // https://introcs.cs.princeton.edu/java/11precedence/
     public static void main(String[] args) {
-        System.out.println(-5 + 8 * 6);
-        System.out.println((55 + 9) % 9 );
+        int a = 5, b = 8, c = 6;
+        int result = a + b * c;
+        System.out.println(result);
+        result = (55 + 9) % 9;
+        System.out.println(result);
         System.out.println(20 + -3 * 5 / 8);
         System.out.println(5 + 15 / 3 * 2 - 8 % 3);
     }
