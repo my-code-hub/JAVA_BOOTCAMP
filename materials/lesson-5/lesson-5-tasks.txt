@@ -1,0 +1,61 @@
+1. declare and initialize array with four arbitrary whole numbers. Print out all of the numbers
+   in array. Then ask user to input whole number and assign it to the first element in array.
+   Then print out array again.
+
+
+2. declare and initialize array with arbitrary whole numbers. Ask user to input whole number and check if
+    your array contains this number. Print "Array contains <n>!" or "Array doesn't contain number <n>"
+    if the array does or doesn't contain number.
+
+
+3. Declare and initialize array with arbitrary whole numbers. Print out the array to user.
+    Then write a code which creates new array with the same values, but in reverse order.
+    Print the new array.
+
+
+4. declare and initialize array with arbitrary whole numbers. Ask user to input whole number,
+   then search array for that number and print the index of that number.. If there is no such
+   number in array, print "Element <n> not found in array!"
+
+
+5. declare and initialize array with five arbitrary whole numbers and write code that:
+     1) calculates the sum of all elements in array
+     2) finds the minimum and maximum value in array
+     3) multiplies all elements in array
+     then print out all the results (minimum, maximum value.
+     All sum of all elements and all element multiplication result)
+
+     hints: create a variable and then use while loop and += operator to sum all elements.
+            Similar approach can be used to multiply all elements (operator *=).
+
+     Bonus:  also find and print out the second smallest element in an array.
+
+
+6. declare and initialize array with arbitrary letters (use char data type), print out all the values.
+   Then ask user to input char and then search and remove this char from array (if it exists).
+   Then print out new array or message "Char <n> is not in array."
+
+    hint:
+        Here is how you can get char input from user:
+        https://stackoverflow.com/questions/13942701/take-a-char-input-from-the-scanner
+
+        Also, since arrays are fixed size and you can't remove element from them, you will have to
+        create new array (copy of existing one), but without the element you want to remove.
+
+
+BONUS TASKS:
+
+7: ask user to input whole number and declare/initialize array of such size. Then ask user
+       to fill array (so he enters whole number for each element in array).
+       Then calculate average value of an array elements and print the result.
+
+
+8. write a method which accepts two int arrays as an argument and returns true if they are the same
+    (contain the same elements and have the same size)
+
+
+--------------------------------------------------------------------------------------------------
+useful links:
+    https://www.w3resource.com/java-exercises/array/index-test.php
+    https://www.w3schools.com/java/java_arrays.asp
+    https://www.w3schools.com/java/java_examples.asp
