@@ -1,6 +1,6 @@
 1. Ask user to input positive whole number and print the sum for all numbers from 1 to user's input number.
    If user enters negative number, print message "Please enter positive number!"
-    hint: use while loop
+    hint: use while loop, int sum (sum += i)
 
 
 2. Ask user to input two whole numbers (first and second) and print out all numbers between first and second.
@@ -13,6 +13,12 @@
          if (...) {
              return; //this line stops program execution.
          }
+
+
+2.1 Ask user to input two whole numbers (first and second) and print out the sum of all numbers
+       between first and second. (including first and second number).
+       If first number is greater than second, then print message "First number has to be less than second."
+       and exit program.
 
 
 3. declare and initialize array with four arbitrary whole numbers. Print out all of the numbers
