@@ -15,7 +15,7 @@
          }
 
 
-2. declare and initialize array with four arbitrary whole numbers. Print out all of the numbers
+3. declare and initialize array with four arbitrary whole numbers. Print out all of the numbers
    in array. Then ask user to input whole number and assign/change the last element in array to
    what user did input.
    Then print out array again.
@@ -24,7 +24,7 @@
         ArraysExample, ExampleUserInput
 
 
-3. declare and initialize array with four arbitrary whole numbers. Print out all of the numbers
+4. declare and initialize array with four arbitrary whole numbers. Print out all of the numbers
    from array in reverse order.
 
    hint: use while loop. You will have to loop from the last index to first one. See class ArraysExample
