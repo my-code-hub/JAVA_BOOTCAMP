@@ -10,7 +10,7 @@
         Output: Sunday
 
 
-2. Write a program that asks user to input three numbers
+2. Write a program that asks user to input three numbers:
   and prints out the greatest number
     example:
         input:
@@ -64,22 +64,27 @@ helpful link:
 6. Write a program that prints out numbers from 1 to 10:
     example:
         output: 1 2 3 4 5 6 7 8 9 10
+    hint: use while loop
+
 
 
 7. Write a program that prints out numbers from 10 to -10:
     example:
         output: 10 9 8 ... -10
+    hint: use while loop
 
 
 8. Write a program that prints out numbers from 0 to 10 (except 3 and 6):
     example:
         output: 0 1 2 4 5 7 8 9 10
+    hint: use while loop and if / else
 
 
 9. Write a program that prints out all even numbers from 2 to 30
     example:
         output: 2 4 6 ... 30
-    (hint, you can check if number is even like this: x % 2 == 0)
+    (hint, use while loop. also you can check if number is even like this: x % 2 == 0)
+
 
 some helpful links:
     https://www.w3schools.com/java/java_while_loop.asp

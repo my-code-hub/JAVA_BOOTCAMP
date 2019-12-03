@@ -1,0 +1,30 @@
+1. Ask user to input positive whole number and print the sum for all numbers from 1 to user's input number.
+   If user enters negative number, print message "Please enter positive number!"
+    hint: use while loop
+
+
+2. Ask user to input two whole numbers (first and second) and print out all numbers between first and second.
+   (including first and second number).
+   If first number is greater than second, then print message "First number has to be less than second."
+   and exit program.
+
+   hint: you will need Scanner (for user input), while loop (to print out numbers).
+         To exit program, you have to use return; statement. Example:
+         if (...) {
+             return; //this line stops program execution.
+         }
+
+
+2. declare and initialize array with four arbitrary whole numbers. Print out all of the numbers
+   in array. Then ask user to input whole number and assign/change the last element in array to
+   what user did input.
+   Then print out array again.
+
+   hint: you will need while loop (to print array), Scanner (for user input). See examples:
+        ArraysExample, ExampleUserInput
+
+
+3. declare and initialize array with four arbitrary whole numbers. Print out all of the numbers
+   from array in reverse order.
+
+   hint: use while loop. You will have to loop from the last index to first one. See class ArraysExample
