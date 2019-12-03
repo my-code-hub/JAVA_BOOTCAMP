@@ -1,0 +1,2 @@
+Print fibonacci sequence using while loop
+    bonus: implement the same with for loop.
