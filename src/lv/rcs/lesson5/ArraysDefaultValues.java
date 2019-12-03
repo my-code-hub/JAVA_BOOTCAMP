@@ -19,6 +19,8 @@ public class ArraysDefaultValues {
         for (boolean val : bnum)
             System.out.print(val + " ");
 
+        char burts = 38;
+        System.out.println(burts);
         System.out.println("\n\nChar array default values:");
         char chararr[] = new char[5];
         for (char val : chararr)

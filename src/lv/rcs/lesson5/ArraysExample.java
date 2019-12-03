@@ -17,6 +17,8 @@ public class ArraysExample {
 
         System.out.println("numbers izmērs: " + numbers.length);
         System.out.println("numbers nultais elements: " + numbers[0]);
+        numbers[0] = 77;
+        System.out.println("numbers nultais elements (pamainita vertiba): " + numbers[0]);
         System.out.println("numbers pirmais elements: " + numbers[1]);
         System.out.println("numbers otrais elements: " + numbers[2]);
         //System.out.println("numbers trešais elements: " + numbers[3]);
