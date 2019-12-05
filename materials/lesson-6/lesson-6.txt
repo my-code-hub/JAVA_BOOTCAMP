@@ -20,17 +20,20 @@
        If first number is greater than second, then print message "First number has to be less than second."
        and exit program.
 
+       requirement: You have to use while loop
+
 
 3. declare and initialize array with four arbitrary whole numbers. Print out all of the numbers
    in array. Then ask user to input whole number and assign/change the last element in array to
    what user did input.
    Then print out array again.
 
-   hint: you will need while loop (to print array), Scanner (for user input). See examples:
+   hint: use any loop you want. See examples:
         ArraysExample, ExampleUserInput
 
 
 4. declare and initialize array with four arbitrary whole numbers. Print out all of the numbers
    from array in reverse order.
 
-   hint: use while loop. You will have to loop from the last index to first one. See class ArraysExample
+   requirement: use while loop. You will have to loop from the last index to first one.
+   See class ArraysExample
