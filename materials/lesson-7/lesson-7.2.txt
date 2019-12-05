@@ -7,7 +7,6 @@
     hint: use for loop and multiple variables to remember sum and previous values
 
 
-
 2. Similar as in first task, but also create new array and save all of the fibonacci numbers in array.
 
 
@@ -15,3 +14,7 @@
 3. Implement a method (printFibonacci) which accepts single argument (int limit) and performs
    the same operations as in task 1
    hint: basically, move the same code you wrote in task 1 inside a method (except the user input part)
+
+
+4. Define an array with arbitrary whole numbers. Write a program that finds second highest number
+  in array.
