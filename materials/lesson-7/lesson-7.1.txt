@@ -1,0 +1,24 @@
+!Note - you have to use "for" loop in every task.
+
+1.0 print out numbers from 0 to 10 using for loop
+
+
+1.2 print out all numbers from 13 to -3 using for loop
+
+
+2.0 lets print out sum of all numbers between 3 and 12 (use for loop)
+
+
+2.1 ask user to input two whole numbers. Print out sum of all numbers between first and second
+    number that user entered.
+
+
+4. declare and initialize array with four arbitrary whole numbers. Print out all of the numbers
+   from array.
+
+
+4.1 declare and initialize array with four arbitrary whole numbers. Print out every second number
+    from array in reverse order.
+
+    int: you have to use for loop. You will have to loop from the last index to first one.
+
