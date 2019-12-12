@@ -1,0 +1,50 @@
+1. Implement a void method (method which doesn't return anything) which just outputs text "Hello, John!".
+   Write a program which demonstrates usages of this method.
+
+
+2. Implement a method "greetPerson" which accepts one argument (String name) and output text "Hello, <NAME>!"
+   <NAME> name is the value of argument. Write a program which demonstrates usages of this method.
+   hint: to concatenate text (add/put it together), you can use + operator.
+
+
+3. Write a method which multiplies two numbers. Write a program which uses this method and outputs
+   the result to user.
+
+
+4. Write a method which accepts three whole numbers as arguments (whole numbers) and returns the
+  highest number of those. (hint: you will have to use if / else to compare the numbers, similar as
+  we did in Lesson 4, task 2)
+
+
+5. Write a method "isEqual" which has two parameters (whole numbers) and returns true if they are
+   equal and false if they are not. Write a program which uses this method and outputs
+   the result to user.
+
+
+6. Write a method "isPositive" which has one parameter (whole number) and returns true if it is
+   positive or zero and false, if it is negative. Write a program which uses this method and outputs
+   the result to user.
+
+
+7. Write a method "isEven" which has one parameter (whole number) and returns true if the number is
+   event or false, if it is not. Write a program which uses this method and outputs the result to user.
+   ( hint: you can use % to check if number is event.
+     Example: https://www.programmingsimplified.com/java/source-code/java-program-odd-even )
+
+
+8. Write a method with two whole numbers as parameters (n1 and n2) and prints out all the numbers
+   from n1 to n2. This method doesn't return anything, it just prints the numbers. If n1 is greater
+   than or equal to n2 then method doesn't print anything.
+
+
+9. Implement a method (findHighest) which accepts array of whole numbers as argument returns the highest
+   value number in array. Write a program which demonstrates the usage of this method.
+
+
+10. Implement a method (findLowest) which accepts array of whole numbers as argument returns the value of
+   lowest number in array. Write a program which demonstrates the usage of this method.
+
+
+11. Implement a method which accepts one argument (array of whole numbers) and returns the sum of
+   those numbers.
+   hint: you will have to loop trough array and sum all of the elements in it and then return the result.
