@@ -21,6 +21,8 @@
   Example of method usage:
        System.out.println(getGreatest(1, 2, 3)); //prints 3
        System.out.println(getGreatest(5, 2, 3)); //prints 5
+       int result = getGreatest(5, 10, 3);
+       System.out.println(result);
 
 
 5. Write a method "isEqual" which has two parameters (whole numbers) and returns true if they are
