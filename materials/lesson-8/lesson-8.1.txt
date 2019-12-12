@@ -11,7 +11,8 @@
    has to multiply these two parameters and output the result.
    Write a program which uses this method and outputs the result to user.
    Example:
-        multiply(5, 5); //this should output 25
+        multiply(5, 5); //25
+        multiply(2, 2); //4
 
 
 4. Write a method which accepts three whole numbers as arguments (whole numbers) and returns the
