@@ -7,8 +7,11 @@
    hint: to concatenate text (add/put it together), you can use + operator.
 
 
-3. Write a method which multiplies two numbers. Write a program which uses this method and outputs
-   the result to user.
+3. Implement a method "multiply" which has two parameters (whole numbers, x1 and x2). This method
+   has to multiply these two parameters and output the result.
+   Write a program which uses this method and outputs the result to user.
+   Example:
+        multiply(5, 5); //this should output 25
 
 
 4. Write a method which accepts three whole numbers as arguments (whole numbers) and returns the
