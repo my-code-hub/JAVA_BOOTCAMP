@@ -1,4 +1,14 @@
-10. Implement a method: (name it "toThePowerOf") which has two parameters (int base and int power) and returns the
+12. Implement a method "search" which has two parameters (array of whole numbers called "numbers" and a whole number called "number")
+    and checks if array "numbers" contains "number" and if it does, then it returns the index of the number;
+    Here is example of how to use the method:
+        // in ararys we start counting indexes from 0.
+        // So number 3 has index 0, number 12 has index 1 and so forth
+        int[] numbers = {3, 12, 2};
+        int result = search(numbers, 12);
+        System.out.println(result); //this should print 1 (because number 12 has index 1)
+
+
+13. Implement a method: (name it "toThePowerOf") which has two parameters (int base and int power) and returns the
    result (base to power). Write a program which asks user to input two whole numbers from and calls
    the method with those numbers and then prints the result of the method.
    For example: if user inputs 2 and 3, the result should be 8 (because 2^3=8).
@@ -12,14 +22,22 @@
          it with value power the same amount of times as the value of power.
 
 
-11. Implement a method which calculates and returns the average number of elements in array.
-    Write an example program which uses this method and print out the result.
+14. Implement a method "calculateAverage" which has one parameter (array of whole numbers) calculates
+    and returns the average of all number in array. Write an example program which uses this
+    method and prints out the result.
+    Example of method usage:
+        int [] numbers = {1, 2, 3};
+        int result = calculateAverage(numbers);
+        System.out.println(result); //prints out 2
+    hint: To calculate the average value of all the numbers in array you will need to sum all
+          numbers in array and divide it by the length of array.
 
 
-12. Implement a method (generateArray) which accepts whole number (int size) and creates/returns new array which
-    is the size of argument value and populate it with random, positive whole numbers. Write an example
-    program which uses this method and print out the result.
+15. Implement a method (generateArray) which accepts whole number (int arrayLength) and creates/returns new array which
+    is the size of "arrayLength" populate it with random, positive whole numbers. Write an example
+    program which uses this method and prints out the result.
     hint: use new Random().nextInt() to generate random number, search google for more info.
 
     For example, the return value of generateArray(3) could be array which has values 2, 20, 1
     inside.
+
