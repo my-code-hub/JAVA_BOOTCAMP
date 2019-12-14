@@ -22,4 +22,9 @@ public class Task6 {
             return false;
         }
     }
+
+    // the same as previous example, but shorter
+    static boolean isPositiveExample2(int number) {
+        return number >= 0;
+    }
 }
