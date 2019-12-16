@@ -21,12 +21,12 @@ public class Task82 {
         System.out.println("Ievadiet skaitli 2: ");
         int number2 = sc.nextInt();
 
-        printNumbers(number1, number2);
+        printNumbersFromLowestToHighest(number1, number2);
         System.out.println(); //izvadam tukšu jaunu rindu
-        printNumbers2(number1, number2);
+        printNumbersFromLowestToHighest2(number1, number2);
     }
 
-    static void printNumbers(int n1, int n2) {
+    static void printNumbersFromLowestToHighest(int n1, int n2) {
         if (n1 < n2) {
             for (int i = n1; i <= n2; i++) {
                 System.out.print(i + " ");
@@ -41,7 +41,7 @@ public class Task82 {
     }
 
     //variants 2
-    static void printNumbers2(int n1, int n2) {
+    static void printNumbersFromLowestToHighest2(int n1, int n2) {
         int counter, limit;
         if (n1 < n2) {
             counter = n1;
