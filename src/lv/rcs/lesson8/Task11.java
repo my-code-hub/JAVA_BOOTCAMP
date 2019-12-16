@@ -13,6 +13,12 @@ public class Task11 {
         int [] array = {3, 2, 4};
         int result = calculateSum(array);
         System.out.println("rezultāts ir: " + result);
+
+        System.out.println("rezultāts 2 ir: "
+                + calculateSum(new int [] {5, 10, 20}));
+
+        System.out.println("rezultāts 3 ir: "
+                + calculateSum(new int [] {5, 10, 15}));
     }
 
     static int calculateSum(int[] numbers) {
