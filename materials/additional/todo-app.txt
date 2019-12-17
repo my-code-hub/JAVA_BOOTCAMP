@@ -1,0 +1,43 @@
+100. Create "TO-DO list management" application which allows the user to:
+     1. Add multiple items to the list, for example:
+     2. view the list
+     3. Remove item from list
+     4. Edit any item in the list
+          edit 3 buy milk and eggs
+
+     Description: Once the program is launched, it creates list (ArrayList should be used) in memory
+        for user and user can interact with program via command line (be entering commands and
+        pressing enter). Program needs to support the following commands:
+
+        (note: for all examples below, let's assume we already have two items in our TODO list:
+                1 Buy milk
+                2 Go to the gym)
+
+        1) printList - command has no arguments, it just prints the list to the user.
+            Example input:
+                printList
+
+            Example output:
+                1 Buy milk
+                2 Go to the gym
+
+        2) add [TEXT] - command adds new item at the end of the list and prints the list.
+            Example input:
+                add Mow the lawn
+            Example output:
+                1 Buy milk
+                2 Go to the gym
+                3 Mow the lawn
+
+        3) remove [INDEX] - removes element from list and prints the list.
+            Example input:
+                remove 2
+            Example output:
+                1 Buy milk
+
+        4) edit [INDEX] [TEXT] - modifies element in the list and prints the list.
+            Example input:
+                edit 1 Buy milk and eggs!
+            Example output:
+                1 Buy milk and eggs!
+                2 Go to the gym
