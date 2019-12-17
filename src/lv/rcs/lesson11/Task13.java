@@ -18,13 +18,23 @@ package lv.rcs.lesson11;
 public class Task13 {
 
     public static void main(String[] args) {
-        int base = 3; //baaze
+        int base = 2; //baaze
         int power = 3; //kaapinaataajs
 
+        int result = toThePowerOf(base, power);
+        System.out.println("result: " + result);
+//        int result = 1;
+//        for (int i = 0; i < power; i++) {
+//            result = result * base;
+//        }
+//        System.out.println("result: " + result);
+    }
+
+    static int toThePowerOf(int base, int power) {
         int result = 1;
         for (int i = 0; i < power; i++) {
             result = result * base;
         }
-        System.out.println("result: " + result);
+        return result;
     }
 }
