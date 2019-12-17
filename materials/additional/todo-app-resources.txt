@@ -1,0 +1,9 @@
+https://howtodoinjava.com/java-collections/
+https://www.javatpoint.com/java-arraylist
+https://www.w3resource.com/java-exercises/collection/index.php#arraylist
+
+
+1) Viewing list, adding/removing and editing items:
+    https://howtodoinjava.com/java-collections/
+    https://www.javatpoint.com/java-arraylist
+    https://www.w3resource.com/java-exercises/collection/index.php#arraylist
