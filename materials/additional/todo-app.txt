@@ -41,3 +41,10 @@
             Example output:
                 1 Buy milk and eggs!
                 2 Go to the gym
+
+
+bonus:
+     Izveidot klasi TodoList, kas saturētu visas šīs metodes
+     Izveidot klasi Item, kas saturētu laukus "text" un "done" (true or false)
+     tad pievienot komandu "printUncompleted" (vai tamlīdzīģu nosaukumu), kas izvadītu elementus, kas nav izdarīti
+     un arī pievienot metodi "done [INDEX]" lai var atķeksēt izdarītos elementus
