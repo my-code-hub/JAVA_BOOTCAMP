@@ -1,4 +1,4 @@
-package lv.rcs.lesson12;
+package lv.rcs.lesson12.exercise1;
 
 //1. create class "Animal" with properties "type", "name" and "age"
 //    * create constructor with parameters "name" and "age" for

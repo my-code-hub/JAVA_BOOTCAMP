@@ -1,6 +1,5 @@
 package lv.rcs.lesson12.exercise2;
 
-
 //2. create a class "BankAccount" with property "balance" (should be decimal number)
 //    * create empty default constructor for it
 //    * create a constructor with parameter for setting balance.

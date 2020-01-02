@@ -1,4 +1,4 @@
-package lv.rcs.lesson12;
+package lv.rcs.lesson12.exercise1;
 
 public class Lesson12Task1 {
 
