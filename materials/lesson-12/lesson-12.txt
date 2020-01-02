@@ -25,3 +25,5 @@
     * create a method "getArea" (multiply with with height) which calculates and returns the area of rectangle
     * create a method "incrementHeight" with no parameters, which increments height by one
     * create a method "incrementWidth" with no parameters, which increments width by one
+    * add validation in constructors which doesn't allow to create Rectangle with negative or zero
+        width or height. If height or width is not positive, set it to 5 and 10
