@@ -56,8 +56,8 @@
 
 
     //Example code in main method:
-        PlayerSolution john = new PlayerSolution("John", new WeaponSolution("Axe", 10));
-        PlayerSolution jane = new PlayerSolution("Jane", new WeaponSolution("Sword", 3));
+        Player john = new Player("John", new Weapon("Axe", 10));
+        Player jane = new Player("Jane", new Weapon("Sword", 3));
 
         battle(john, jane);
 
