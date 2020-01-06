@@ -1,0 +1,48 @@
+14.1 Create a game:
+    1. Create a class "Weapon" and:
+        a. Add properties (should be encapsulated as private):
+            "power" (whole number)
+            "name"  (text)
+        b. Add getter methods for all of the properties in "Weapon" class
+        c. Add default constructor which initializes properties with default values
+            (default power should be 3 and name - "Axe")
+        d. Add constructor with parameters "power" and "name" for setting properties of the weapon
+           (this constructor should validate power value and shouldn't allow to set it less than 1
+            or higher than 10. It should also validate name. If name has less than 4 characters or
+            more than 20, it should be set to default ("Axe"))
+    2. Create a class "Player" and:
+        a. add property "name" (of type text)
+        b. add property "weapon" (of type Weapon)
+        c. add property "health" (whole number)
+        d. add property "luck" (of type Random (we are talking about java.util.Random here))
+        e. add constructor which has two parameters for setting name and Weapon. Also in this
+           constructor you should set health to 1000 and create new instance of Random and assign it
+           to property "luck".
+        f. add getter method for "name" and "health" properties
+        g. add method "isAlive" which returns true if user has health greater than 0, or false
+           player's health is 0 or less. Access should be private.
+        h. create a method "subtractHealth" with parameter "points" (whole number).
+            This method subtracts points from players health property and outputs message:
+                "[name] lost [numberOfPoints] points and now has [health]] left."
+            But, if points is greater than player's health it sets players health to zero and prints this
+            message instead: "[name] just lost all his last points and died!".
+            If this player is already dead already (has 0 or less health), then we don't need to subtract
+            any points or output any message.
+        i. add "attack" method with one parameter of type "Player" (this is the victim). This method
+           is used so our player (the object on which we call the method) can attack another player
+           (victim/the object which is the parameter).
+           First, before we attack victim, we need to check if we are alive (if our player is alive).
+           If our player is dead, then we just output message:
+                    "[name] is unable to attack, because he is dead."
+           and return from method without attacking victim. But if we are alive, we have to
+           take the power of our weapon and subtract it from the victims health (so we basically
+            call "subtractHealth" method on our victim)
+    3 . Create class "Game" with main method. In this main method we will create (instantiate)
+        our objects and use them to battle (attack each other).
+          a. create two weapons (choose power and name as you wish)
+          b. Create two players with the previously created weapons
+          c. Write a code which makes the players attack each other 30 times. User previously
+             created "attack" method for attacking. Example of players attacking each other:
+                  player1.attack(player2);
+                  player2.attack(player1);
+          d. TODO this will be finalized
