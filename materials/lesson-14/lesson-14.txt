@@ -14,10 +14,8 @@
         a. add property "name" (of type text)
         b. add property "weapon" (of type Weapon)
         c. add property "health" (whole number)
-        d. add property "luck" (of type Random (we are talking about java.util.Random here))
         e. add constructor which has two parameters for setting name and Weapon. Also in this
-           constructor you should set health to 1000 and create new instance of Random and assign it
-           to property "luck".
+           constructor you should set health to 1000
         f. add getter method for "name" and "health" properties
         g. add method "isAlive" which returns true if user has health greater than 0, or false
            player's health is 0 or less. Access should be private.
@@ -36,13 +34,46 @@
                     "[name] is unable to attack, because he is dead."
            and return from method without attacking victim. But if we are alive, we have to
            take the power of our weapon and subtract it from the victims health (so we basically
-            call "subtractHealth" method on our victim)
+           call "subtractHealth" method on our victim) and before that print message:
+                "[attackerName] is attacking [victimName] with [weapon.name]"
+
     3 . Create class "Game" with main method. In this main method we will create (instantiate)
         our objects and use them to battle (attack each other).
           a. create two weapons (choose power and name as you wish)
           b. Create two players with the previously created weapons
-          c. Write a code which makes the players attack each other 30 times. User previously
+          c. Implement a method "battle" which makes the players attack each other 30 times. Method has
+             two parameters (both are of type Player). To make players attack each other, use previously
              created "attack" method for attacking. Example of players attacking each other:
-                  player1.attack(player2);
-                  player2.attack(player1);
-          d. TODO this will be finalized
+                  player1.attack(player2); //player1 is attacking player2 (both variables are of type Player)
+                  player2.attack(player1); //player2 is attacking player2 (both variables are of type Player)
+          d. call the "battle" method in main method and pass to it the players you previously created.
+          e. implement a method "determineWinner" which has two parameters (both are of type Player).
+             The purpose  of this method is to print out who won the battle (to determine that
+              you need to compare the health points of both players) and who has how many points.
+             example of message:
+                    "John won Jane by 140 points." (so in this case John had 140 points more than Jane
+                         after all of the battles)
+
+
+    //Example code in main method:
+        PlayerSolution john = new PlayerSolution("John", new WeaponSolution("Axe", 10));
+        PlayerSolution jane = new PlayerSolution("Jane", new WeaponSolution("Sword", 3));
+
+        battle(john, jane);
+
+        determineWinner(john, jane);
+
+    //Here is how the output should look like:
+            John is attacking Jane with Axe
+            Jane lost 10 points and now has 990 left.
+            Jane is attacking John with Sword
+            John lost 3 points and now has 997 left.
+            John is attacking Jane with Axe
+            Jane lost 10 points and now has 980 left.
+            ...
+            Jane lost 10 points and now has 800 left.
+            Jane is attacking John with Sword
+            John lost 3 points and now has 940 left.
+            John won Jane by 140 points.
+
+    //try to change the number of battles and execute the program and see how it behaves.
