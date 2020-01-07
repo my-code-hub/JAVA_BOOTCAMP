@@ -1,5 +1,5 @@
 15.1 Create class "OverloadedMethods" with package access and create/implement six overloaded methods
-    called "outputVariable" each with one parameter for these primitive data
+    called "outputVariable" each with one parameter for these data
     types: int, long, double, boolean, String, String []. Each of this method should output the
     parameter value and also it's data type. For example:
         output(5);     //int value - 5
