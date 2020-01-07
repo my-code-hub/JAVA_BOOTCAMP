@@ -4,7 +4,12 @@
     parameter value and also it's data type. For example:
         output(5);     //int value - 5
     Create class "OverloadedMethodsProgram" and call all of these methods with arbitrary values.
+    Bonus:
+        Create three constructors (default constructor and two overloaded constructors). Choose
+        any parameter data types you want. Output all parameters in each of the constructor.
+        In class "OverloadedMethodsProgram" use each of the construct to instantiate new object.
 
+15.2 See sources files in package lv.rc.lesson15.exercises
 
 15.4 Create class "ToDoList" which access modifier public. Add property "list" which is array with
    text elements.
