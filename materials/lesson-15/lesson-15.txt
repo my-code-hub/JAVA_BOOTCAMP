@@ -12,7 +12,7 @@
 15.2 See sources files in package lv.rc.lesson15.exercises. Start this exercise by
    following steps in class "A", then class "B" and then "BaseApp" and "InnerApp"
 
-15.4 Create class "ToDoList" which access modifier public. Add property "list" which is array with
+15.4 Create class "ToDoList" with access modifier public. Add property "list" which is array with
    text elements.
    1. Create default constructor which initializes "list" to a new empty array of size 3.
    2. Create overloaded constructor which has one parameter "size" (whole number) and
