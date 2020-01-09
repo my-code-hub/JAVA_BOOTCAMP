@@ -4,8 +4,8 @@ package lv.rcs.lesson15.excersises.p1;
 class A {
 
     //2. encapsulate this property so it's accessible only via getter method.
-    // This getter method should be accessible from class ExerciseMain and class InnerApp
-    // it shouldn't be possible to change this value from ExerciseMain
+    // This getter method should be accessible from class BaseApp and class InnerApp
+    // it shouldn't be possible to change this value from BaseApp
     public int a = 5;
 
     //3. change access modifier and encapsulate this property so it's only accessible in scope of
