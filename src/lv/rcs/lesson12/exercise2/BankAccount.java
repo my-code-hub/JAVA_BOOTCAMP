@@ -11,7 +11,7 @@ class BankAccount {
         balance = newBalance;
     }
 
-    void deposit(double amount) {
+    public void deposit(double amount) {
         if (amount > 0 && amount < 1000) {
             balance += amount;
 //        balance = balance + amount;

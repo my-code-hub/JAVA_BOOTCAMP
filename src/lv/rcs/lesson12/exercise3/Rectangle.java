@@ -16,6 +16,12 @@ class Rectangle {
     Rectangle(int width, int height) {
         this.width = width;
         this.height = height;
+        if (this.width <= 0) {
+            this.width = 10;
+        }
+        if (this.height <= 0) {
+            this.height = 5;
+        }
     }
 
     int getHeight() {

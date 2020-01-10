@@ -1,7 +1,7 @@
 package lv.rcs.lesson15.excersises;
 
 import lv.rcs.lesson15.excersises.p1.A;
-import lv.rcs.lesson15.excersises.p1.B;
+//import lv.rcs.lesson15.excersises.p1.B;
 
 // 1. add import statement for class A
 public class BaseApp {
