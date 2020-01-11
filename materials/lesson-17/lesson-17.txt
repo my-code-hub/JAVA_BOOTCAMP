@@ -1,0 +1,43 @@
+17.1 Inheritance exercise:
+    Create a class "Vehicle":
+        Add a private property "brand" (text) and a public getter method for it
+        Add a property "speed" (with protected access modifier)
+        Also add a constructor with two parameters for initializing both properties (name and speed)
+        Implement a public method "move" which outputs text: "moving with speed [speed] km/h"
+        Implement a method "description" which outputs message:
+            "This vehicle's brand is [brand] and speed [speed] km/h"
+
+    Create a class "Car" which is a subclass of "Vehicle":
+        Add a private property "fuel" (whole number) and public getter method for it
+        Add a private property "horsePower" and a public getter method
+        Add a constructor with parameters brand, speed and horsePower:
+            In this constructor first call the parent constructor and pass brand and speed as arguments to it.
+            Then initialize horsePower. And then initialize fuel to 50 (this will be default).
+        Override method "move" so it outputs text: "driving at [speed]km/h"
+        Override method "description" so it outputs text:
+                "This is a [brand] car which can drive at [speed] km/h. It has [fuel]l of fuel left in tank."
+        Add public method "addFuel" with parameter (whole number) which increments "fuel" value
+        Add public method "checkFuel" which outputs "[fuel] left in tank"
+        Add public method "power" outputs: "this car has [horsePower] horse power"
+
+    Create a class "Bicycle" which is a subclass of "Vehicle":
+        Add a private property "seatHeight" and public getter and setter for it.
+        Add a constructor with 3 parameters (brand, speed and seatHeight):
+            In this constructor first call the constructor of parent class (to initialize brand and speed).
+            And then initialize seatHeight.
+        Override method "move" so it outputs text: "moderately riding bicycle at [speed] km/h"
+
+    Create a class "SportsCar" which is a subclass of "Car":
+        Add a private property "turbo" (whole number)
+        Override method "move" so it outputs text:
+            "racing sports car at [speed] km/h"
+         Add a constructor with parameters brand, speed, fuel and horsePower:
+            In this constructor first call the parent constructor and pass brand and speed as arguments to it.
+            Then initialize horsePower
+        Override method "power" which outputs "this car has a [horsePower + turbo] horse power"
+
+    Create a class "VehicleMain":
+        See class VehicleMain in package "lv.rcs.lesson17.exercises.vehicle" in github. Copy that class
+        in your working space and follow the instructions specified in the comments of that class.
+
+
