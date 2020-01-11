@@ -33,7 +33,6 @@
             "racing sports car at [speed] km/h"
          Add a constructor with parameters brand, speed, fuel and horsePower:
             In this constructor first call the parent constructor and pass brand and speed as arguments to it.
-            Then initialize horsePower
         Override method "power" which outputs "this car has a [horsePower + turbo] horse power"
 
     Create a class "VehicleMain":
