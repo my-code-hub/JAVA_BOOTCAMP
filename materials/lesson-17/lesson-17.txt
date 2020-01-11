@@ -40,11 +40,21 @@
         in your working space and follow the instructions specified in the comments of that class.
 
 
+
 17.2 Interfaces exercise:
     Create interface Animal
-    Define method makeSound()
+    Define method "void makeSound()"
     Create class Dog and implement this interface
     Create class Cat and implement this interface
-    Create class Animals with main method and create Dog and Cat instance.
+    Create class AnimalsMain with main method and create Dog and Cat instance.
     Call methods makeSound on those objects.
+
+
+
+17.3 Is - A relationship
+     Create a static method "detectInstance" in class "AnimalsMain" with parameter of type Animal.
+     This method should use instanceof operator to check what types of object have we passed
+     as argument and print the corresponding message. For example:
+        "Animal is of type Dog"
+
 
