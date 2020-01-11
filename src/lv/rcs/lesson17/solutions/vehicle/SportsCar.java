@@ -1,5 +1,12 @@
 package lv.rcs.lesson17.solutions.vehicle;
 
+//  Create a class "SportsCar" which is a subclass of "Car":
+//        Add a private property "turbo" (whole number)
+//        Override method "move" so it outputs text:
+//            "racing sports car at [speed] km/h"
+//         Add a constructor with parameters brand, speed, horsePower and turbo:
+//            In this constructor first call the parent constructor and pass brand and speed as arguments to it.
+//        Override method "power" which outputs "this car has a [horsePower + turbo] horse power"
 public class SportsCar extends Car {
 
     private int turbo;
