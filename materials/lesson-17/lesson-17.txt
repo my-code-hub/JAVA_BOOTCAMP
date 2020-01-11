@@ -2,7 +2,7 @@
     Create a class "Vehicle":
         Add a private property "brand" (text) and a public getter method for it
         Add a property "speed" (with protected access modifier)
-        Also add a constructor with two parameters for initializing both properties (name and speed)
+        Also add a constructor with two parameters for initializing both properties (brand and speed)
         Implement a public method "move" which outputs text: "moving with speed [speed] km/h"
         Implement a method "description" which outputs message:
             "This vehicle's brand is [brand] and speed [speed] km/h"
