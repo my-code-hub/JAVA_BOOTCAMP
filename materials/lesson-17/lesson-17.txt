@@ -31,7 +31,7 @@
         Add a private property "turbo" (whole number)
         Override method "move" so it outputs text:
             "racing sports car at [speed] km/h"
-         Add a constructor with parameters brand, speed, fuel and horsePower:
+         Add a constructor with parameters brand, speed and horsePower:
             In this constructor first call the parent constructor and pass brand and speed as arguments to it.
         Override method "power" which outputs "this car has a [horsePower + turbo] horse power"
 
