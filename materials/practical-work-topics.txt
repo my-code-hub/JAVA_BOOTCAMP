@@ -1,0 +1,11 @@
+1) Tic-tac-toe
+
+2) Hangman
+    https://www.coolmathgames.com/0-hangman
+
+3) Cows & bulls (mastermind)
+    https://www.youtube.com/watch?v=r_dw8iV_52g
+
+4) TODO manager
+
+5) Battleships

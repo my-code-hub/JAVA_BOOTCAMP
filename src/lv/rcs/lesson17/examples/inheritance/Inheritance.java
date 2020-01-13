@@ -18,17 +18,14 @@ public class Inheritance {
         running.description();
 
 
+        //more examples about super
 
 
 
-        // constructor hierarchy
 
-        //discuss Object and how it's a superclass of all objects (talk about toString())
-        //any object actually inherits methods from Object
+        //toString()
 
         //abstract class / method example
-
-        // talk about "this" and "super"
 
         //interface
 
