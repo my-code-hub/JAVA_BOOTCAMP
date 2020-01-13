@@ -8,13 +8,12 @@
       (example where two persons are equal and not equal)
 
 
-18.2 Write a program which gets text input from user and outputs the first word and then rest
-     of the sentence.
+18.2 Write a program which gets text input from user and replaces all occurrences of "sad" with
+     "happy" and outputs the text.
      Example input:
-        Sky is blue.
+        I'm sad person
      Example output:
-        First word: Sky
-        Rest of the sentence: is blue.
+        I'm happy person
 
 
 18.3 Create new two dimensional array with size 5 x 5. This will be your matrix for multiplication
