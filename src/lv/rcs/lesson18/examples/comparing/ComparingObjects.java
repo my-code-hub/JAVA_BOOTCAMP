@@ -22,6 +22,7 @@ public class ComparingObjects {
             System.out.println("Cars are not equal!");
         }
 
+        //are equal, if method equals returns true
         if (car.equals(car2)) {
             System.out.println("Both cars are equal!");
         } else {
