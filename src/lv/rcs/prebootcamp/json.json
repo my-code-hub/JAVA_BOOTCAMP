@@ -1,0 +1,26 @@
+{
+  "LOGIN_POPUP": {
+    "REGISTER": "Open account",
+    "FORM": {
+      "PASSWORD": {
+        "ERROR": {
+          "PATTERN": "Field value is invalid",
+          "REQUIRED": "Please enter your password"
+        },
+        "TITLE": "Password"
+      },
+      "EMAIL": {
+        "ERROR": {
+          "PATTERN": "Field value is invalid",
+          "REQUIRED": "Please enter your email address"
+        },
+        "TITLE": "Email address"
+      },
+      "BUTTONS": {
+        "FORGOT": "Lost your password?",
+        "LOGIN": "LOG IN"
+      }
+    },
+    "WELCOME": "Welcome back to Twin"
+  }
+}
