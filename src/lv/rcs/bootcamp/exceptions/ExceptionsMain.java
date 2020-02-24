@@ -1,12 +1,12 @@
 package lv.rcs.bootcamp.exceptions;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-
 public class ExceptionsMain {
 
     public static void main(String[] args) {
+        example2();
+        System.out.println("================");
+
+
      //   File file = new File("E://file.txt");
 //        try {
 //            FileReader fr = new FileReader(file);
@@ -64,4 +64,12 @@ public class ExceptionsMain {
         }
     }
 
+
+    static void example2() {
+        try {
+             int result = 5 / 0;
+        } catch (ArithmeticException e) {
+            throw new RuntimeException("dividing error", e);
+        }
+    }
 }
