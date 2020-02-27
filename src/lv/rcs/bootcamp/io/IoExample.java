@@ -22,18 +22,28 @@ import static java.util.Arrays.asList;
 public class IoExample {
 
     public static void main(String[] args) throws IOException {
-        System.out.println("======= write to stdout (console) ======");
-        writeToStdout();
-        System.out.println("======= read from stdin (console) ======");
-        readFromStdin();
         System.out.println("======= read from file ======");
         readFromFile();
+
         System.out.println("======= write to file ======");
         writeToFile();
+
+        System.out.println("======= write to stdout (console) ======");
+        writeToStdout();
+
+        System.out.println("======= read from stdin (console) ======");
+        readFromStdin();
+
+        writeToStdErr();
+    }
+
+    static void writeToStdErr() {
+        System.err.println("Writing to stderr");
     }
 
     static void writeToStdout() {
         PrintWriter writer = new PrintWriter(System.out, true);
+
         List<String> names = asList("Foo", "Bar");
         for (String name : names) {
             writer.println(name + " ");
@@ -67,6 +77,7 @@ public class IoExample {
             //this writes to stdout (console)
             System.out.println(s);
         }
+        reader.close();
     }
 
     //write to file

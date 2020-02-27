@@ -130,5 +130,7 @@ public class CollectionsMain {
             iterator.remove();
         }
         System.out.println("numbers.size(): " + numbers.size());
+
+        numbers.listIterator();
     }
 }
